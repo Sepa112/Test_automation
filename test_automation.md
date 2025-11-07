@@ -58,3 +58,21 @@ A rendszertesztelés arra fókuszál, hogy a szoftver technikai szempontból meg
 
 #### Mi a különbség a statikus és dinamikus tesztelés között?
 A statikus tesztelés a szoftver kódjának és dokumentációjának futtatás nélküli vizsgálatát jelenti, például áttekintéssel és elemzéssel, míg a dinamikus tesztelés a kód futtatásával és viselkedésének tesztelésével foglalkozik. 
+
+
+### Szoftverfejlesztési és tesztelési modellek(vízesés, V-modell, agilis modell)
+#### Vízeés
+A vízesés tesztelési modell egy szoftverfejlesztési megközelítés, ahol a tesztelés az egyes fázisok, mint a követelmények meghatározása, tervezés, megvalósítás és üzemeltetés, sorrendben, egymás utáni egymásra épülő lépésekben történik. Ez egy strukturált és lineáris módszer, amely jól működik jól definiált, kevéssé változó követelményekkel rendelkező projekteknél, de rugalmatlan, és a módosítások költségesek lehetnek. A tesztelés mindig az előző fázisok sikeres befejezése után történik, és a projekt végén egy átfogó ellenőrzést foglal magában. 
+<img src="https://www.szinergia.hu/wp-content/uploads/vizeses.png" alt="image" width="300" height="220">
+
+#### V-modell
+A V-modell egy szoftverfejlesztési és rendszermérnöki modell, amely a fejlesztési és a tesztelési fázisokat V-alakban kapcsolja össze, a bal oldali ágon a fejlesztéssel, a jobb oldalon pedig a teszteléssel. Lényege, hogy minden fejlesztési lépéshez egy azzal párhuzamos tesztelési szint tartozik, így a tesztelési feladatok már a projekt elején elkezdődnek. Ez csökkenti a hibák felfedésének késedelmi kockázatát, és biztosítja, hogy a rendszer minden követelménynek megfeleljen. 
+<img src="https://rockkid777.github.io/pti-msc-2015-zv/s01/img/v_model.png" alt="image" width="300" height="220">
+
+### Agilis modell
+Az agilis tesztelési modell a szoftverfejlesztés agilis megközelítéséhez illeszkedő, iteratív tesztelési megközelítés, ahol a tesztelés a fejlesztéssel párhuzamosan, szorosan együttműködve zajlik. Ez ellentétben áll a hagyományos, sorozatos (waterfall) modellel, amelyben a tesztelés csak a fejlesztés befejezése után történik. Az agilis tesztelés kulcselemei az együttműködés, a rugalmasság és a folyamatos visszajelzés. 
+<img src="https://promanconsulting.hu/wp-content/uploads/2022/03/agilis-modszertanok-optimized.jpg" alt="image" width="300" height="220">
+
+### TDD és a BDD modell
+A TDD (Tesztvezérelt Fejlesztés) és a BDD (Viselkedésvezérelt Fejlesztés) olyan szoftverfejlesztési modellek, amelyek a tesztelést hangsúlyozzák a kód írása előtt. A TDD elsősorban egységteszteken keresztül működik, amelyek a kódegységek működését ellenőrzik. A BDD a TDD-re építve az egységteszteket a rendszer egészének viselkedésére fókuszáló, közérthető nyelven megfogalmazott tesztekre bővíti ki, amelyeket a fejlesztők, tesztelők és üzleti szereplők együtt írnak meg. 
+<img src="https://static.wixstatic.com/media/166140_5a3460960fcb426c9e4302268a30746e~mv2.png/v1/fill/w_722,h_542,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/166140_5a3460960fcb426c9e4302268a30746e~mv2.png" alt="image" width="300" height="220">
